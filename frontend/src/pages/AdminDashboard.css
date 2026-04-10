@@ -1,0 +1,135 @@
+.dashboard {
+  min-height: 100vh;
+  background: #f9f9f9;
+  padding: 2rem;
+  font-family: system-ui, sans-serif;
+}
+
+.dash-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.dash-header h1 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #111;
+}
+
+.dash-header span {
+  font-size: 13px;
+  color: #888;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 2rem;
+}
+
+.stat {
+  background: #fff;
+  border: 0.5px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+}
+
+.stat .label {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 6px;
+}
+
+.stat .value {
+  font-size: 24px;
+  font-weight: 500;
+  color: #111;
+}
+
+.table-wrap {
+  background: #fff;
+  border: 0.5px solid #e0e0e0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+}
+
+thead tr {
+  border-bottom: 0.5px solid #e5e5e5;
+}
+
+thead th {
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 11px;
+  font-weight: 500;
+  color: #888;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+tbody tr {
+  border-bottom: 0.5px solid #f0f0f0;
+  transition: background 0.1s ease;
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
+
+tbody tr:hover {
+  background: #fafafa;
+}
+
+tbody td {
+  padding: 14px 16px;
+  color: #333;
+  vertical-align: top;
+}
+
+.name-cell {
+  font-weight: 500;
+  color: #111;
+  white-space: nowrap;
+}
+
+.idea-cell {
+  color: #555;
+  max-width: 220px;
+}
+
+.date-cell {
+  color: #aaa;
+  font-size: 12.5px;
+  white-space: nowrap;
+}
+
+.plan-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 10px;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+.plan-basic    { background: #f0f0f0; color: #555; }
+.plan-standard { background: #E6F1FB; color: #185FA5; }
+.plan-advance  { background: #EAF3DE; color: #3B6D11; }
+.plan-custom   { background: #EEEDFE; color: #534AB7; }
+
+.loading {
+  text-align: center;
+  padding: 3rem;
+  color: #888;
+  font-size: 14px;
+}

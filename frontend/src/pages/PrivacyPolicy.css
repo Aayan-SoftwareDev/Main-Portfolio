@@ -1,0 +1,110 @@
+.privacy-policy {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  font-family: system-ui, sans-serif;
+  color: #222;
+  line-height: 1.8;
+}
+
+.privacy-policy h1 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #111;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.privacy-policy h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #111;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.5px solid #e5e5e5;
+}
+
+.privacy-policy h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #111;
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.privacy-policy p {
+  font-size: 14.5px;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.privacy-policy ul,
+.privacy-policy ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.privacy-policy ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.privacy-policy ul li {
+  font-size: 14.5px;
+  color: #444;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.privacy-policy ul li::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #999;
+  flex-shrink: 0;
+  margin-top: 8px;
+}
+
+.privacy-policy ol {
+  list-style: decimal;
+}
+
+.privacy-policy ol li {
+  font-size: 14.5px;
+  color: #444;
+  padding-left: 4px;
+}
+
+.privacy-policy a {
+  color: #111;
+  font-weight: 500;
+  text-underline-offset: 3px;
+}
+
+.privacy-policy a:hover {
+  color: #555;
+}
+
+.privacy-policy strong {
+  font-weight: 500;
+  color: #111;
+}
+
+.privacy-policy .last-updated {
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 2.5rem;
+  display: block;
+}
+
+.privacy-policy hr {
+  border: none;
+  border-top: 0.5px solid #e5e5e5;
+  margin: 2rem 0;
+}

@@ -1,0 +1,87 @@
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: #f9f9f9;
+}
+
+.login-card {
+  background: #fff;
+  border: 0.5px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 380px;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login-header .brand {
+  font-size: 20px;
+  font-weight: 500;
+  color: #111;
+  margin-bottom: 0.4rem;
+}
+
+.login-header p {
+  font-size: 13px;
+  color: #888;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #111;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 14px;
+  color: #111;
+  background: #fafafa;
+  border: 0.5px solid #e0e0e0;
+  border-radius: 8px;
+  outline: none;
+  font-family: inherit;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.form-group input::placeholder {
+  color: #bbb;
+}
+
+.form-group input:focus {
+  border-color: #111;
+  background: #fff;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  background: #111;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.15s ease;
+}
+
+.login-btn:hover {
+  background: #333;
+}

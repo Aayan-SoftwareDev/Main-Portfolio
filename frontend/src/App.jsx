@@ -35,7 +35,26 @@ function App() {
     verifyAdmin();
   }, []);
 
- if(isChecking) return (<div>Loading...</div>)
+ if(isChecking) return (<div style={{
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  width: '100vw',
+  height: '100vh',
+}}>
+  <div style={{
+    width: '48px',
+    height: '48px',
+    borderRadius: '50%',
+    border: '3px solid #e5e7eb',
+    borderTopColor: '#111827',
+    animation: 'spin 0.8s linear infinite',
+  }} />
+
+  <style>{`
+    @keyframes spin { to { transform: rotate(360deg); } }
+  `}</style>
+</div>)
   return (
     <>
       <Navbar/>

@@ -39,10 +39,10 @@ const isAdmin = async (req, res, next) => {
     }
 };
 
-app.use("/api/webhook", router);
-app.post("/api/login", controllerLogin);
-app.post("/api/admin/show", isAdmin, controllerShowMessages);
-app.get("/api/admin/verify", isAdmin, (_, res) => res.status(200).json({ok: true}));
+app.use("/webhook", router);
+app.post("/login", controllerLogin);
+app.post("/admin/show", isAdmin, controllerShowMessages);
+app.get("/admin/verify", isAdmin, (_, res) => res.status(200).json({ok: true}));
 
 if(process.env.ENV == "development"){
     connectDB().then(() => {

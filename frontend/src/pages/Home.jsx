@@ -50,13 +50,13 @@ const Home = ({setIsSuccess}) => {
     <div className="hero">
         <div className="hero-content">
             <h2>Get Your Website Built!</h2>
-            <p>We specialize in custom website development and custom ecommerce solutions, that are user friendly, easy to navigate and build to convert.</p>
+            <p>I specialize in custom website development and custom ecommerce solutions, that are user friendly, easy to navigate and build to convert.</p>
         </div>
         <button onClick={() => window.location.href="#getInTouch"}>Send a Message</button>
     </div>
         <div className="solutions" id="solutions">
             <div className="solutions-content">
-                <p>Solutions we offer</p>
+                <p>Solutions I offer</p>
             </div>
             <div className="solutions-card">
                 <div className="card">

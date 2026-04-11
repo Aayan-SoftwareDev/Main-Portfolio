@@ -137,7 +137,7 @@ const Home = ({setIsSuccess}) => {
         <div className="getInTouch" id="getInTouch">
             <div className="getInTouchContent">
                 <p className="company-name">Aayan</p>
-                <p className="company-info">We specialize in custom website development and custom ecommerce solutions, that are user friendly, easy to navigate and build to convert.</p>
+                <p className="company-info">I specialize in custom website development and custom ecommerce solutions, that are user friendly, easy to navigate and build to convert.</p>
                 <p className="email">aayan.softwaredev@gmail.com</p>
                 <p>Send a message to us for what you want us to build</p>
             </div>

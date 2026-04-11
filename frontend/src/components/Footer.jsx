@@ -7,7 +7,7 @@ const Footer = () => {
 
     <div className="footer-brand">
       <p className="name">Aayan</p>
-      <p>We specialize in custom website development and ecommerce solutions that are user-friendly, easy to navigate, and built to convert.</p>
+      <p>I specialize in custom website development and ecommerce solutions that are user-friendly, easy to navigate, and built to convert.</p>
       <span className="email">aayan.softwaredev@gmail.com</span>
     </div>
 
